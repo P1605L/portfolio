@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader"></div>
+        <p>Memuat Portfolio...</p>
+        <p>selamat datang</p>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">
+            <i class="fas fa-code"></i>
+            <span>Portfolio</span>
+        </div>
+
+        <button class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <div class="theme-switchers">
+            <button class="theme-btn" id="light-mode-btn"><i class="fas fa-sun"></i></button>
+            <button class="theme-btn" id="dark-mode-btn"><i class="fas fa-moon"></i></button>
+            <button class="theme-btn" id="gold-mode-btn"><i class="fas fa-crown"></i></button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hai, Saya <span>Piere Saputra Ladasi</span></h1>
+            <p>Saya adalah seorang Web Developer. Saya berspesialisasi dalam membuat website yang modern, responsif, dan user-friendly.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">Lihat Projek</a>
+                <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/Gambar WhatsApp 2025-07-19 pukul 09.41.45_546d480c.jpg" alt="Profile" class="profile-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Saya adalah seorang developer passionate yang mencintai segala hal tentang web development. Saya telah bekerja dengan berbagai teknologi modern dan framework untuk menciptakan pengalaman digital yang menarik.</p>
+                <p>Dengan latar belakang di Computer Science dan pengalaman kerja di berbagai perusahaan teknologi, saya memiliki pemahaman yang kuat tentang best practices dalam pengembangan web.</p>
+                <p>Selain coding, saya juga menikmati fotografi, traveling, dan bermain musik. Saya percaya bahwa keseimbangan antara kerja dan hobi adalah kunci untuk kreativitas yang berkelanjutan.</p>
+            </div>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">PHP</span>
+                <span class="skill">MYSQL</span>
+                <span class="skill">Git</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Proyek Saya</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80" alt="Project 1" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Website Desa</h3>
+                    <p class="project-desc">Website resmi untuk desa dengan fitur informasi, berita, dan layanan administrasi online.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">MySQL</span>
+                    </div>
+                    <a href="#" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Project 2" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Aplikasi Musik</h3>
+                    <p class="project-desc">Platform streaming musik dengan antarmuka yang intuitif dan koleksi lagu yang lengkap.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                    <a href="#" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 3" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Website Portfolio Artis</h3>
+                    <p class="project-desc">Website portfolio modern dengan animasi yang menarik dan desain yang responsif.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Contact Section -->
+    <div class="container" id="contact">
+        <div class="header">
+            <h1>Hubungi Saya</h1>
+            <p>Pilih metode pengiriman yang Anda inginkan</p>
+        </div>
+        
+        <div class="contact-content">
+            <div class="method-selector">
+                <div class="method-option active" data-method="whatsapp">
+                    <input type="radio" id="whatsapp-radio" name="method" class="method-radio" value="whatsapp" checked>
+                    <label for="whatsapp-radio">WhatsApp</label>
+                </div>
+                <div class="method-option" data-method="email">
+                    <input type="radio" id="email-radio" name="method" class="method-radio" value="email">
+                    <label for="email-radio">Email</label>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" class="form-control" placeholder="Masukkan nama Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Masukkan email Anda" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" class="form-control" placeholder="Tulis pesan Anda" required></textarea>
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+            
+            <div id="notification" class="notification"></div>
+            
+            <div class="info-box">
+                <h3>Informasi Pengiriman</h3>
+                <p><strong>WhatsApp</strong>: Pesan akan dibuka di aplikasi WhatsApp dengan konten yang sudah terisi</p>
+                <p><strong>Email</strong>: Pesan akan dikirim langsung ke email saya menggunakan FormSubmit</p>
+                <p>Pastikan Anda telah mengisi semua field dengan benar sebelum mengirim</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/piere-ladasi-a68ab2340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/piere_ladasi?igsh=dTJjNnA5M2l1YnA1" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/1HTF9gJPF9/" class="social-link"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p class="copyright">&copy; 2023 John Doe. All rights reserved.</p>
+    </footer>
+
+    <!-- Swipe Button -->
+    <div id="swipe-btn">
+        <i class="fas fa-bolt"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
